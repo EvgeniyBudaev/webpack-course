@@ -1,7 +1,6 @@
 @import 'fonts.css';
 
 body {
-  background-color: beige;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -16,4 +15,9 @@ h1 {
 
 .container img {
   width: 100%;
+}
+
+.background {
+  height: 1000px;
+  background-size: cover;
 }

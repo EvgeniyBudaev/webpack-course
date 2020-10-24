@@ -8,7 +8,7 @@ import './styles/less/less.less'
 import * as classes from './styles/css/card.module.css'
 import * as modules from './styles/scss/book.module.SCSS'
 import json from './assets/json.json'
-import images from './assets/images/bg.png'
+import images from './assets/images/image.png'
 import xml from './assets/data.xml'
 import yourCsvFiles from './assets/yournewstyle.csv'
 import './js/babel'
@@ -28,24 +28,30 @@ import './js/babel'
 
 const App = () => (
   <div className="App">
-    <div className="container">
-      <h1>Hello World!</h1>
-    </div>
+    <div className="App-inner">
+      <div className="container">
+        <h1>Hello World!</h1>
+      </div>
 
-    <div className="less">
-      <h2 className="less__title">LESS</h2>
-    </div>
+      <div className="less">
+        <h2 className="less__title">LESS</h2>
+      </div>
 
-    <div className="scss">
-      <h2 className="scss__title">SCSS</h2>
-    </div>
+      <div className="scss">
+        <h2 className="scss__title">SCSS</h2>
+      </div>
 
-    <div className={classes.card}>
-      <h2 className={classes.card__title}>This is module CSS</h2>
-    </div>
+      <div className={classes.card}>
+        <h2 className={classes.card__title}>This is module CSS</h2>
+      </div>
 
-    <div className={modules.book}>
-      <h2 className={modules.book__title}>This is module SCSS</h2>
+      <div className={modules.book}>
+        <h2 className={modules.book__title}>This is module SCSS</h2>
+      </div>
+
+      <div>
+        <img src={images} alt="images"/>
+      </div>
     </div>
   </div>
 )
