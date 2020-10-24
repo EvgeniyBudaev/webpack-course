@@ -1,0 +1,8 @@
+.card {
+  border: 1px solid green;
+}
+
+.card__title {
+  text-align: center;
+  color: lawngreen;
+}

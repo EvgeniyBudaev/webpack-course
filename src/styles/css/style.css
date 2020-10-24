@@ -1,0 +1,19 @@
+@import 'fonts.css';
+
+body {
+  background-color: beige;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+}

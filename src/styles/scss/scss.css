@@ -1,0 +1,12 @@
+.scss {
+  border: 1px solid red;
+  margin: 50px 0;
+}
+
+.scss__title {
+  color: red;
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+}

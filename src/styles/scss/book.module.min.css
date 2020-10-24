@@ -1,0 +1,7 @@
+.book {
+  border: 1px solid gold;
+}
+.book__title {
+  text-align: center;
+  color: yellow;
+}
