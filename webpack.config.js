@@ -140,7 +140,7 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         use: cssLoaders('sass-loader'),
-        exclude: /\.module\.css$/,
+        exclude: /\.module\.scss$/,
       },
       // Loading LESS
       {
@@ -155,7 +155,10 @@ module.exports = {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: true,
+              modules: {
+                auto: true,
+                localIdentName: "[path][name]__[local]--[hash:base64:5]"
+              },
             },
           },
         ],
@@ -166,12 +169,16 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           {
-            loader: 'sass-loader',
+            loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: true,
+              modules: {
+                auto: true,
+                localIdentName: "[path][name]__[local]--[hash:base64:5]"
+              },
             },
           },
+          "sass-loader"
         ],
         include: /\.module\.scss$/,
       },
