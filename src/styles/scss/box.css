@@ -1,0 +1,7 @@
+.box {
+  padding: 100px 0;
+}
+
+.box__list-item.active {
+  color: green;
+}

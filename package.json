@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@fancyapps/fancybox": "^3.5.7",
     "jquery": "^3.5.1",
     "lodash": "^4.17.20",
     "normalize.css": "^8.0.1",

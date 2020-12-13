@@ -1,0 +1,23 @@
+// start certificates
+.certificates {
+    &__inner {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left: -25px;
+    }
+    &__card {
+        border: 1px solid #e5e5e5;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        flex-basis: calc(25% - 25px);
+    }
+    &__card img {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+// end certificateså
